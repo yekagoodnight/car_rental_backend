@@ -1,0 +1,18 @@
+
+server.port: 9100
+server.servlet.context-path: /api
+
+BASE_LOCATION: D:\aliyun_workspace\java_zuche
+DB_NAME: java_zuche
+
+
+spring:
+  datasource:
+    username: root
+    password: 4643830
+    url: jdbc:mysql://localhost:3306/${DB_NAME}?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+ 
+
+ 
